@@ -26,10 +26,12 @@
                 "dob": "schema:name",
                 "benefits": {
                     "@id": "schema:name",
-                    "@type": "@id",
+                   
                     "@container": "@list"
                     },
-                "gender": "schema:name"
+                "gender": "schema:name",
+                "policyExpiresOn": "schema:name",
+                "policyIssuedOn":"schema:name"
             }
         }
     }
